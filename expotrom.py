@@ -229,7 +229,7 @@ def menu():
         print("-------------------------------")
         print("\t (6) Volver al MENU PRINCIPAL ")
         print("-------------------------------")
-        opci=input("Digite una opcion del MENU DE INSCRIPCIONES ")
+        opci=int(input("Digite una opcion del MENU DE INSCRIPCIONES "))
         if opci==1:
             feria()
         elif opci==2:
