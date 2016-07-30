@@ -52,6 +52,9 @@ def menu():
             telefono=input("Telefono :")
             correo=input("Correo electronico : ")
             descripcion=input("Descripcion breve del taller : ")
+            
+            input("UD. se registro con exito...")
+            inscripcion()
 
         def proyectos():
             print("Llene los siguientes datos ...Para exponer su proyecto...")
@@ -138,7 +141,7 @@ def menu():
                 print("-------------------------------")
                 print("\t (3) Volver al menu de competencias ")
                 print("-------------------------------")
-                deci=input("Digite una opcion del MENU DE COMPETENCIAS ")
+                deci=int(input("Digite una opcion del MENU DE COMPETENCIAS "))
                 if deci==1:
                     medio()
                 elif deci==2:
@@ -181,7 +184,7 @@ def menu():
             print("-------------------------------")
             print("\t (4) Volver al MENU DE INSCRIPCIONES ")
             print("-------------------------------")
-            opci=input("Digite una opcion del MENU DE COMPETENCIAS ")
+            opci=int(input("Digite una opcion del MENU DE COMPETENCIAS "))
             if opci==1:
                 segvel()
             elif opci==2:
